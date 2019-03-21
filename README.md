@@ -1,14 +1,14 @@
-# Project Name
+# Football play with popular teams
 
-###[Demo](https://github.com/Dmy00759/sports-app-landing/src/index.html)
+###[Demo](https://github.com/Dmy00759/sports-app-landing)
 
 ### Description
 
-*Tell about your project*
+*My project about a sport site *
 
 ### Technologies are used
 
 - *HTML*
 - *CSS*
 - ...
-"# sports-app-landing" 
+
