@@ -6,113 +6,127 @@
   <link href="main.css" rel="stylesheet">
 </head>
 <body>
-<section>
-  <a href="javascript:void(0)"><img src="image/LOGO.png" alt="LOGO" height="32" width="99"></a>
-
-  <h1>Get a personalized football experience tailored just for you</h1>
-  <p>Achieve super-fan status by getting tailored updates and up-to-the-minute information on your team.</p>
-
-  <a href="javascript:void(0)"><img src="image/Apple Store.png" alt="Apple Store" height="47" width="157"></a>
-  <a href="javascript:void(0)"><img src="image/Google Play.png" alt="Google Play" height="47" width="157"></a>
-
-  <img src="image/Frame.png" alt="Frame" height="668" width="956">
+<section class="first_section">
+  <div class="wrapper">
+    <a href="javascript:void(0)"><img class="logo" src="img/logo1.svg" alt="LOGO"></a>
+    <h1 class="first_h1">Get a personalized football experience tailored just for you</h1>
+    <h6 class="first_h6">Achieve super-fan status by getting tailored updates and up-to-the-minute information on your
+      team.</h6>
+    <div class="buttons">
+      <a class="apple_button" href="javascript:void(0)"><img src="img/appleStore.png" alt=""></a>
+      <a class="google_button" href="javascript:void(0)"><img src="img/playMarket.png" alt=""></a>
+    </div>
+  </div>
 </section>
 <main>
-  <section>
-
-    <form action="URL" method="post">
-      <time datetime="2018-09-09 19:00">Sat, 12:35pm</time>
-      <h3>Arsenal v <br>
-        Chelsea</h3>
-      <h5>Friendly Match</h5>
-      <label><input type="checkbox" checked></label>
-      <label><input type="checkbox">Turn on all match notifications</label>
-      <img src="image/arsenal-f-c-seeklogo.com.png" alt="arsenal-f-c-seeklogo" height="85" width="72">
-      <img src="image/chelsea-fc.png" alt="chelsea-fc" height="84" width="85">
-    </form>
-
-    <div>
-      <video controls>
-        <source src="video/33n3c.mp4">
+  <section class="second_section">
+    <div class="arsenal-vs-chelsea">
+      <div class="football_match">
+        <time datetime="2018-09-09 19:00">Sat, 12:35pm</time>
+        <p>Arsenal v <br>
+          Chelsea</p>
+        <span>Friendly Match</span>
+        <img class="arsenal" src="img/arsenal.png" alt="logo fc Arsenal">
+        <img class="chelsea" src="img/chelsea.png" alt="logo fc Chealsea">
+        <form class="form_notifications">
+          <input class="input" id="notification" type="checkbox">
+          <label class="label" for="notification">
+            <span class="turn-on">Turn-on all notifications</span>
+          </label>
+        </form>
+      </div>
+      <video class="video" controls="controls" poster="./img/poster.svg">
+        <source src="video/33n3c.mp4" type="video/mp4">
       </video>
     </div>
-
-    <span>WHAT IT DOES</span>
-    <h1>An Enhanced Football Experience</h1>
-    <p>The Guardian Live Scores app is your go to app for live <br>
-      scores and watching Premier League goals… Get in there,<br>what a result!<br></p>
-    <p>As well as videos of all the goals, you can watch match <br>highlights, check out the latest scores and results
-      and
-      stay
-      <br> bang-up-to-date with the big football stories from The <br> Guardian publication.
-    </p>
-    <strong><a href="javascript:void(0)">Learn more</a></strong>
-
+    <div class="about_foo">
+      <h5 class="first_h5">WHAT IT DOES</h5>
+      <h3 class="first_h3">An Enhanced Football Experience</h3>
+      <p class="information_about_app">The Guardian Live Scores app is your go to app for live
+        scores and watching Premier League goals… Get in there,what a result!</p>
+      <p class="information_about_app">As well as videos of all the goals, you can watch match highlights,
+        check out the latest scores and results
+        and stay bang-up-to-date with the big football stories from The Guardian publication.
+      </p>
+      <a href="javascript:void(0)" class="link_learn">Learn more</a>
+    </div>
   </section>
 
-  <section>
-    <span>GET STARTED</span>
-    <h2>User-friendly Interface</h2>
-    <p>The in-game goal clips from every Premier League match are available to Guardian TV customers with a Guardian
-      subscription.So, if you’re not a subscriber, now’s the time to make that savvy call. If that’s a step too far for you, you
-      can still watch loads of firecracker Premier League action as long as you sign in with a free Guardian iD.
-    </p>
-    <strong><a href="javascript:void(0)">Learn more</a></strong>
+  <section class="third_section">
+    <div class="start_app">
+      <h5 class="first_h5">GET STARTED</h5>
+      <h3 class="first_h3">User-friendly Interface</h3>
+      <p class="information_about_app">The in-game goal clips from every
+        Premier League match are available to Guardian TV customers with a Guardian
+        subscription.</p>
+      <p class="information_about_app">So, if you’re not a subscriber, now’s the time to make that savvy call. If that’s
+        a step too far for
+        you, you
+        can still watch loads of firecracker Premier League action as long as you sign in with a free Guardian iD.
+      </p>
+      <a href="javascript:void(0)" class="link_learn">Learn more</a>
+    </div>
+    <div class="telephone_slide">
+      <div class="telephone">
+        <img src="img/telephone_background.png" alt="telephone">
+        <img src="img/icon_call.svg" alt="call" class="icon_call">
+        <img src="img/icon.svg" alt="phone_icon" class="icon_phone">
+        <div class="spiral1"></div>
+        <div class="spiral2"></div>
+        <div class="spiral3"></div>
+      </div>
+    </div>
   </section>
-
-  <a href="javascript:void(0)">
-    <img src="image/Group 7.1.png" alt="Group 7.1" height="612" width="353">
-  </a>
 
   <section class="exp">
     <h2>Features That Will Tailor Your Experience</h2>
     <ul>
       <li>
-        <img src="image/Vector.png" height="30" width="38" alt="">
+        <img src="img/vector1.png" alt="">
         <p>Video highlights for every Premier League <br> and English Football League game</p>
       </li>
       <li>
-        <img src="image/Vector (1).png" height="29" width="26" alt="">
+        <img src="img/vector2.png" alt="">
         <p>
           Notifications for your teams, including <br>in-game goal clips and Premier League <br>match highlights for
           Sky TV subscribers with Guardian.
         </p>
       </li>
       <li>
-        <img src="image/Vector (2).png" height="38" width="29" alt="">
+        <img src="img/vector3.png" alt="">
         <p>
           Brand new video section including <br>dedicated areas for your chosen team, <br>trending video, Premier
           League,Football league and other major leagues
         </p>
       </li>
       <li>
-        <img src="image/Vector (3).png" height="33" width="34" alt="">
+        <img src="img/vector4.png" alt="">
         <p>
           Match pages showing live scores, <br>commentary, team line-ups and enhanced <br>match stats to keep you
           up-to-date on all the action
         </p>
       </li>
       <li>
-        <img src="image/Vector (4).png" height="33" width="35" alt="">
+        <img src="img/vector5.png" alt="">
         <p>The new picture in picture video mode <br>means you can watch goals, manager <br>interviews and more whilst
           using other
           <br>areas of the app – so you don’t need to miss <br>any of the action</p>
       </li>
       <li>
-        <img src="image/Vector (5).png" height="24" width="38" alt="">
+        <img src="img/vector6.png" alt="">
         <p>Live updated league tables including all <br>the domestic, European and major leagues <br>and tournaments</p>
       </li>
       <li>
-        <img src="image/Vector (6).png" height="30" width="30" alt="">
+        <img src="img/vector7.png" alt="">
         <p>The Guardian News Vidiprinter. Follow the <br>goals as they go in with our new and <br>improved Vidiprinter
         </p>
       </li>
       <li>
-        <img src="image/Vector (7).png" height="30" width="30" alt="">
+        <img src="img/vector8.png" alt="">
         <p>Match reports, previews and a dedicated <br>news section</p>
       </li>
       <li>
-        <img src="image/Vector (8).png" height="30" width="30" alt="">
+        <img src="img/vector9.png" alt="">
         <p>And you can achieve super-fan status by <br>personalising your home page with <br>up-to-the-minute
           information
           on your team.
@@ -123,72 +137,77 @@
 
   <section>
     <h2>What Our Users Say</h2>
-    <img src="image/Group 161.6.png" height="67" width="67" alt="">
-    <img src="image/Group 161.7.png" height="72" width="67" alt="">
+    <img src="img/left.png" alt="">
+    <img src="img/right.png" alt="">
     <section>
-      <img src="image/Ellipse.png" height="30" width="30" alt=""><h5>Noah Jackson</h5>
+      <img src="img/ava1png.png" alt=""><h5>Noah Jackson</h5>
       <p>I use this app every day and it's a great way <br>to keep up to date with what's going on in <br>football. It's
         a
         shame it won't rotate into <br>landscape mode like its main competitor
       </p>
-      <img src="image/Vector (13).png" height="12" width="15" alt=""></section>
+      <img src="img/Vector (13).png" height="12" width="15" alt=""></section>
     <section>
-      <img src="image/Ellipse (1).png" height="30" width="30" alt=""><h5>Darren Wilson</h5>
+      <img src="img/ava2png.png" height="30" width="30" alt=""><h5>Darren Wilson</h5>
       <p>Good for scores and commentary but the <br>team lineups have stopped working. </p>
-      <img src="image/Vector (13).png" height="12" width="15" alt=""></section>
+      <img src="img/Vector (13).png" height="12" width="15" alt=""></section>
     <section>
 
-      <img src="image/Ellipse (2).png" height="30" width="30" alt=""><h5>Michael Akinuli</h5>
+      <img src="img/ava3.png" height="30" width="30" alt=""><h5>Michael Akinuli</h5>
       <p>Good for watching the goals and great for <br>highlights instead of waiting till 10:30 before <br>you can watch
         highlights on March of the day <br>also no need of sky go
       </p>
-      <img src="image/Vector (13).png" height="12" width="15" alt=""></section>
+      <img src="img/Vector (13).png" height="12" width="15" alt="">
+    </section>
   </section>
 
-  <section class="li">
-    <h1>We have been featured in</h1>
-    <ul>
-      <li><a href="javascript:void(0)"> <img src="image/Group 703.1.png" alt="" height="49" width="149"></a></li>
-      <li><a href="javascript:void(0)"><img src="image/Vector (9).png" alt="" height="32" width="102"> </a></li>
-      <li><a href="javascript:void(0)"><img src="image/nbc-sports-1.png" alt="" height="58" width="69"> </a></li>
-      <li><a href="javascript:void(0)"> <img src="image/designer-technology.png" alt="" height="32" width="110"></a>
-      </li>
-      <li><a href="javascript:void(0)"> <img src="image/designer-news.png" alt="" height="48" width="48"> </a></li>
-      <li><a href="javascript:void(0)"><img src="image/sky-sports-1.png" alt="" height="34" width="210"> </a></li>
+  <div class="channel">
+    <h1 class="use_h1">We have been featured in</h1>
+    <ul class="sport_chanel">
+      <li><a class="sport_logo" href="javascript:void(0)"> <img src="img/sports_logo1.png" alt=""></a></li>
+      <li><a class="sport_logo" href="javascript:void(0)"><img src="img/sports_logo2.png" alt=""> </a></li>
+      <li><a class="sport_logo" href="javascript:void(0)"><img src="img/sports_logo3.png" alt=""> </a></li>
+      <li><a class="sport_logo" href="javascript:void(0)"> <img src="img/sports_logo4.png" alt=""></a></li>
+      <li><a class="sport_logo" href="javascript:void(0)"> <img src="img/sports_logo5.png" alt=""> </a></li>
+      <li><a class="sport_logo" href="javascript:void(0)"><img src="img/sports_logo6.png" alt=""> </a></li>
     </ul>
-  </section>
+  </div>
 
-  <section>
-
-      <a href="javascript:void(0)"><img src="image/image 4.png" alt="" height="394" width="294"></a>
-      <a href="javascript:void(0)"> <img src="image/Group 8.1.png" alt="" height="449" width="666"></a>
-    
-    <h1>Get Up Close With Your Team </h1>
-    <p>If you’re interested in the scores of more than one team (it’s OK, we won’t tell your mates you support two
-      clubs!), you can choose the scores and
-      competitions that matter to you using the ‘My Scores’ section. So, make sure you’re a top-flight football
-      fan by downloading the Football Score Centre
-      now. It’s got all this:
-    </p>
-    <a href="javascript:void(0)"><img src="image/Apple Store.png" alt="" height="47" width="157"></a>
-    <a href="javascript:void(0)"><img src="image/Google Play.png" alt="" height="47" width="157"></a>
+  <section class="seven_section">
+    <div class="wrapper2">
+      <h3 class="first_h3">Get Up Close With Your Team </h3>
+      <p class="information_about_app seven">If you’re interested in the scores of more than one team (it’s OK, we won’t
+        tell
+        your mates you support two
+        clubs!), you can choose the scores and
+        competitions that matter to you using the ‘My Scores’ section. So, make sure you’re a top-flight football
+        fan by downloading the Football Score Centre
+        now. It’s got all this:
+      </p>
+      <div class="buttons">
+        <a class="apple_button" href="javascript:void(0)"><img src="img/appleStore.png" alt=""></a>
+        <a class="google_button" href="javascript:void(0)"><img src="img/playMarket.png" alt=""></a>
+      </div>
+    </div>
   </section>
 </main>
-<footer>
-  <div class="logo"><a href="javascript:void(0)"><img src="image/Group.png" alt="" height="32" width="99"></a></div>
-  <nav>
-    <ul>
-      <li><a href="javascript:void(0)">Download </a></li>
-      <li><a href="javascript:void(0)"> Support</a></li>
-      <li><a href="javascript:void(0)">Developers </a></li>
-      <li><a href="javascript:void(0)">Privacy </a></li>
-    </ul>
-    <ul>
-      <li><a href="javascript:void(0)"><img src="image/Vector (10).png" alt="" height="12" width="16"></a></li>
-      <li><a href="javascript:void(0)"><img src="image/Vector (11).png" alt="" height="13" width="7"></a></li>
-      <li><a href="javascript:void(0)"><img src="image/Vector (12).png" alt="" height="15" width="15"></a></li>
+<footer class="footer">
+  <div class="logo_footer"><a href="javascript:void(0)"><img src="img/logo2.svg" alt="" height="32" width="99"></a>
+  </div>
+  <nav class="link">
+    <ul class="nav_ul">
+      <li><a class="nav_a" href="javascript:void(0)">Download </a></li>
+      <li><a class="nav_a" href="javascript:void(0)"> Support</a></li>
+      <li><a class="nav_a" href="javascript:void(0)">Developers </a></li>
+      <li><a class="nav_a" href="javascript:void(0)">Privacy </a></li>
     </ul>
   </nav>
+
+  <div class="network">
+    <a class="network_a" href="javascript:void(0)"><img src="img/twitter.svg" alt=""></a>
+    <a class="network_a" href="javascript:void(0)"><img src="img/fb.svg" alt=""></a>
+    <a class="network_a" href="javascript:void(0)"><img src="img/insta.svg" alt=""></a>
+  </div>
+
 </footer>
 </body>
 </html>
