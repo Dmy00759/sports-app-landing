@@ -259,13 +259,13 @@ body {
 .start_app {
   display: flex;
   flex-direction: column;
-  margin: 109px 0 0 163px;
+  margin: 217px 0 0 162px;
 }
 
 .telephone_slide {
   display: flex;
   flex-direction: column;
-  margin: 104px 0 0 270px;
+  margin: 121px 0 0 280px;
   z-index: 1;
 }
 
