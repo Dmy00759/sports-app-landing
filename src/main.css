@@ -207,11 +207,6 @@ body {
   outline: none;
 }
 
-.video:hover {
-  z-index: 2;
-  transition: 1s;
-}
-
 .about_foo {
   display: flex;
   flex-direction: column;
