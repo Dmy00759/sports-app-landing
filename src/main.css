@@ -1,11 +1,12 @@
 @import "support.css";
 
-html {
+.wrapper-first {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
   max-width: 1440px;
-}
-
-body {
-  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
 }
 
 .first_section {
@@ -13,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   background-size: contain;
-  height: 665px;
+  height: 650px;
 }
 
 .logo {
@@ -254,6 +255,7 @@ body {
 .third_section {
   display: flex;
   background-color: var(--white);
+  overflow: hidden;
 }
 
 .start_app {
@@ -305,6 +307,28 @@ body {
   height: 600px;
   left: -100px;
   bottom: 25px;
+  animation-duration: 60s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: small_circle;
+}
+
+.small_circle {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 437px;
+  left: 20px;
+}
+
+@keyframes small_circle {
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .spiral3 {
@@ -316,6 +340,136 @@ body {
   height: 800px;
   left: -200px;
   bottom: -75px;
+}
+
+.list-section {
+  background: url(./img/blue_background.svg);
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  font-family: var(--font_lato);
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.message {
+  font-family: var(--font_lato);
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  align-self: center;
+  margin: 76px 0 56px;
+}
+
+.features_ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.information_p {
+  width: 311px;
+}
+
+.section_twitter {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.twitter_wrapper {
+  text-align: center;
+  margin-bottom: 63px;
+  margin-top: 100px;
+  font-size: 28px;
+  line-height: 37px;
+  color: var(--color_for_p);
+}
+
+.twitter {
+  width: 90%;
+  margin: auto;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  width: 309px;
+  border: 1px solid black;
+  margin-right: 50px;
+  border-radius: 4px;
+  height: 165px;
+}
+
+.upper {
+  display: flex;
+  margin-left: 5px;
+  position: relative;
+}
+
+.portrait {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.name {
+  margin-left: 17px;
+}
+
+.twitter_logo {
+  width: 15px;
+  height: 12px;
+  display: block;
+  justify-self: flex-end;
+  position: absolute;
+  top: 24px;
+  right: 13px;
+}
+
+.opinion {
+  margin-left: 17px;
+  font-size: 14px;
+  color: var(--color_for_p);
+  line-height: 18px;
+  margin-right: 13px;
+}
+
+.slick-prev,
+.slick-prev::before {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 24px;
+  background-color: white;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.slick-prev {
+  border: 1px solid var(--blue);
+  left: -50px;
+}
+
+.slick-next {
+  border: 1px solid var(--blue);
+}
+
+.slick-next,
+.slick-next::before {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 24px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 108px;
+}
+
+.slick-dots {
+  bottom: -60px;
 }
 
 .channel {
