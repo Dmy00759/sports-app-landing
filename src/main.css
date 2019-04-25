@@ -307,6 +307,16 @@
   height: 600px;
   left: -100px;
   bottom: 25px;
+}
+
+.spiral2_2 {
+  border: 1px  var(--brand);
+  border-radius: 50%;
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  left: -100px;
+  bottom: 25px;
   animation-duration: 60s;
   animation-timing-function: ease-out;
   animation-delay: 0s;
