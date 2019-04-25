@@ -440,6 +440,7 @@
 
 .opinion {
   margin-left: 17px;
+  font-family: var(--font_lato);
   font-size: 14px;
   color: var(--color_for_p);
   line-height: 18px;
