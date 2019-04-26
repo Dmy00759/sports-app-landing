@@ -413,6 +413,12 @@
   width: 311px;
 }
 
+.information_p::before {
+  content: "•";
+  color: var(--white);
+  font-family: var(--font_lato);
+}
+
 .section_twitter {
   overflow: hidden;
   margin-bottom: 10px;
