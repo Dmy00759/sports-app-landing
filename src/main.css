@@ -59,6 +59,7 @@
   display: flex;
   justify-content: space-around;
   outline: none;
+
 }
 
 .google_button:hover,
