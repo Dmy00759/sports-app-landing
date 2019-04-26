@@ -1,4 +1,7 @@
 @import "support.css";
+body {
+  margin: 0;
+}
 
 .wrapper-first {
   display: flex;
