@@ -1,6 +1,6 @@
 # Football play with popular teams
 
-[Demo](https://dmy00759.github.io/sports-app-landing/src/index.html)
+[Demo](https://yevhentkachuk.github.io/sports-app-landing/src/index.html)
 
 ### Description
 
