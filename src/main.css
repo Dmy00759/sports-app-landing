@@ -2,7 +2,6 @@
 body {
   margin: 0;
 }
-
 .wrapper-first {
   display: flex;
   flex-direction: column;
