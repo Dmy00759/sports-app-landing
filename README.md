@@ -1,6 +1,6 @@
 # Football play with popular teams
 
-###[Demo](https://dmy00759.github.io/sports-app-landing/src/index.html)
+[Demo](https://dmy00759.github.io/sports-app-landing/src/index.html)
 
 ### Description
 
@@ -8,7 +8,7 @@
 
 ### Technologies are used
 
-- *HTML*
-- *CSS*
-- ...
-
+- HTML
+- CSS (with flexbox)
+-  Slick slider
+- Wow.js
