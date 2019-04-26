@@ -455,31 +455,28 @@
 }
 
 .slick-prev,
-.slick-prev::before {
+.slick-next{
   cursor: pointer;
-  width: 40px;
-  height: 40px;
-  border-radius: 24px;
   background-color: white;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--brand);
+  outline: none;
+  position: absolute;
+  top: 80px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.25);
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  z-index: 10;
 }
 
 .slick-prev {
-  border: 1px solid var(--blue);
   left: -50px;
+  background: var(--white) url(img/left-button.svg) no-repeat 48% 21%;
 }
 
 .slick-next {
-  border: 1px solid var(--blue);
-}
-
-.slick-next,
-.slick-next::before {
-  cursor: pointer;
-  width: 40px;
-  height: 40px;
-  border-radius: 24px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  right:-50px;
+  background: var(--white) url(img/right-button.svg) no-repeat 48% 21%;
 }
 
 .slick-dotted.slick-slider {
