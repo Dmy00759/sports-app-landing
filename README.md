@@ -4,7 +4,7 @@
 
 ### Description
 
-*My project about a sport site *
+My project about a sport site 
 
 ### Technologies are used
 
