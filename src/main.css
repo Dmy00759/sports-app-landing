@@ -386,6 +386,66 @@ body {
   bottom: -75px;
 }
 
+.spiral4 {
+  border: 1px solid var(--brand);
+  border-radius: 50%;
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  box-sizing: border-box;
+  top: -220px;
+  left: -301px;
+  opacity: 0.3;
+}
+
+.spiral5 {
+  border: 1px solid var(--brand);
+  border-radius: 50%;
+  position: absolute;
+  width: 1200px;
+  height: 1200px;
+  box-sizing: border-box;
+  top: -304px;
+  left: -415px;
+  opacity: 0.2;
+}
+
+.spiral6 {
+  border: 1px solid var(--brand);
+  border-radius: 50%;
+  position: absolute;
+  width: 1400px;
+  height: 1400px;
+  box-sizing: border-box;
+  top: -400px;
+  left: -512px;
+  opacity: 0.2;
+}
+
+.spiral7 {
+  border: 1px solid var(--brand);
+  border-radius: 50%;
+  position: absolute;
+  width: 1600px;
+  height: 1600px;
+  box-sizing: border-box;
+  left: -618px;
+  top: -505px;
+  opacity: 0.1;
+}
+
+.spiral8 {
+  border: 1px solid var(--brand);
+  border-radius: 50%;
+  position: absolute;
+  width: 1800px;
+  height: 1800px;
+  box-sizing: border-box;
+  left: -705px;
+  top: -595px;
+  opacity: 0.1;
+}
+
 .list-section {
   background: url(./img/blue_background.svg);
   display: flex;
